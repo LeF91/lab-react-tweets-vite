@@ -1,6 +1,7 @@
+//rcfe
+
 function Message(props) {
-  const message = props.message;
-  return <p className="message">{message}</p>;
+  return <p className="message">{props}</p>;
 }
 
 export default Message;

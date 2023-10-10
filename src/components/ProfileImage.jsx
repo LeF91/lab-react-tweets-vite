@@ -1,7 +1,5 @@
 function ProfileImage(props) {
-  const image = props.image;
-
-  return <img src={image} className="profile" alt="profile" />;
+  return <img src={user.image} alt="{`${user.name}`s avatar" />;
 }
 
 export default ProfileImage;
